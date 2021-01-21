@@ -20,7 +20,7 @@ public class Main {
         int n = sc.nextInt();
 
         for (int i=0; i<n; i++){
-            System.out.println("Empregado #" + (i+1) + ":");
+            System.out.println("Employee #" + (i+1) + ":");
             System.out.print("Id:");
             int id = sc.nextInt();
             System.out.print("Name:");
@@ -44,7 +44,7 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println("Lista de empregados");
+        System.out.println("List of employees:");
         for (Funcionarios obj : list){
             System.out.println(obj);
         }
